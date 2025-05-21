@@ -11,10 +11,12 @@
         No, I would use a unit test to do so. End to end is supposed to replicate user behavior to verify the behavior of the application such as clicking buttons or filling out forms. Unit tests isolates and directly tests individual functions for correctness.
 
 3) What is the difference between navigation and snapshot mode?
-        Navigation mode analyzes a page right after it loads. It will provide an overall performance metric, but can't analyze interactions or changes in content. Snapshot mode analyzes a page in its current state and is best used for finding accessibility issues. It can't analyze JS performance or changes to the DOM tree.
 
-4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
-        Under "diagnosis", three things that can be improved on are properly size images (potential savings of 510 KiB), Does not have a <meta name="viewport"> tag with width or initial-scaleNo `<meta name="viewport">` tag found, and minify JavaScript (potential savings of 206 KiB).
+           Navigation mode analyzes a page right after it loads. It will provide an overall performance metric, but can't analyze interactions or changes in content. Snapshot mode analyzes a page in its current state and is best used for finding accessibility issues. It can't analyze JS performance or changes to the DOM tree.
+
+5) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+
+           Under "diagnosis", three things that can be improved on are properly size images (potential savings of 510 KiB), Does not have a <meta name="viewport"> tag with width or initial-scaleNo `<meta name="viewport">` tag found, and minify JavaScript (potential savings of 206 KiB).
 
 
 
